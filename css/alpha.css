@@ -1,0 +1,421 @@
+/* ALPHA CSS */
+
+.card-container{
+    width:100%;
+    display:flex;
+    flex-direction:row;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+.tarjeta{
+    width: 29%;
+    height: auto;
+    padding: 14px;
+    display: flex;
+    flex-direction:row;
+    justify-content: space-between;
+    box-shadow: 0 0 0 1px rgb(221 221 221);
+}
+.white{
+  background-color: #edfbeca6!important;
+}
+.img-alpha-tarjeta{
+    width: 80px;
+    height: 80px;
+    background-color: black;
+    border-radius: 50%;
+}
+.right-container-tarjeta{
+    width: 63%;
+    height: 100%;
+}
+.title-tarjeta{
+    color: black;
+    font-size: 20px;
+    margin: 0;
+}
+.description-tarjeta{
+    color: #4f5c65;
+    font-size: 15px;
+    margin: 0;
+}
+.logo-holder{
+    height: 32px;
+    display: flex;
+    justify-content: space-evenly;
+}
+.social-link-card{
+    margin: none;
+    width: 20px!important;
+    height: 20px!important;
+}
+.right-container-tarjeta{
+    height: 100%;
+}
+
+
+.card-full-body{
+    width: 23%;
+}
+a{
+  text-decoration: none!important;
+}
+.section-31{
+  /*padding-bottom: 1.5% ;*/
+  /*padding-bottom: 0% ;*/
+}
+
+
+.card-body.relative{
+  height: 100%;
+  padding-bottom: 0px;
+  display: flex;
+  background-color: #edfbeca6;
+  flex-direction: column;
+  justify-content: space-between;
+  padding-top: 20px;
+}
+
+.dropdown-submenu {
+  position: relative;
+}
+
+.dropdown-submenu .dropdown-menu {
+  top: 0;
+  left: 100%;
+  margin-top: -1px;
+}
+.switch-blockchainlist-div{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px ;
+}
+.top-div-alpha{
+  width: 909px;
+  gap: 10px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+/* BUTTON PREVIOUS */
+
+
+
+.previous:hover {
+  background-color: #82e59a;
+  color: black;
+}
+
+.previous {
+  text-decoration: none;
+  display: inline-block;
+  padding: 8px 16px;
+  background-color: #82e59a;
+  color: black;
+  border-radius: 7px;
+}
+
+.sneakPeekContainer{
+  background-color: #f9f9f9;
+  padding-top: 10px;
+  padding-bottom: 50px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.card-container.sneakPeek{
+  width: 100%;
+  max-width: 960px;
+
+}
+
+
+.center-title{
+  text-align: center!important;
+}
+.filter-individual-div{
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.filter-div{
+  flex-wrap: wrap;
+  margin-bottom: 20px;
+  gap: 10px;
+  width: 909px;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+}
+.filter-div-dropdownButton{
+  display: none;
+  margin-left: 45px;
+}
+.dropdown_button_filter{
+  width: 193px;
+}
+.filter-by-blockchain-dropdown{
+  margin-left: 0px;
+}
+/* ALPHA ITEM CSS */
+
+.container-big-alpha{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    padding: 20px;
+}
+.container-left-image{
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.img-alpha-big{
+    width: 140px;
+    height: 140px;
+    background-color: #dfe0df;
+    border-radius: 50%;
+    margin-bottom: 10px;
+}
+.container-right-info{
+    width: 70%;
+}
+.cartel-topside{
+  height: 43px;
+}
+.social-linkTwo {
+
+    opacity: 0.5;
+    -webkit-transition: opacity 200ms ease;
+    transition: opacity 200ms ease;
+  }
+  
+  .social-linkTwo:hover {
+    opacity: 1;
+  }
+
+  .switch {
+    position: relative;
+    display: inline-block;
+    width: 34px;
+    height: 20px;
+  }
+  .blockchain-list{
+    height: 20px;
+    border-radius: 5px; 
+    max-width:126px; 
+    border: 1px solid #c6c6c6; 
+    background-color: #f9f9f9;
+  }
+  .blockchains-item{
+    width: 14px;
+    margin-left: 5px; 
+    margin-top: -6px;
+    margin-bottom:2px
+  }
+  
+  /* Hide default HTML checkbox */
+  .switch input {
+    opacity: 0;
+    width: 0;
+    height: 0;
+  }
+  
+  /* The slider */
+  .slider {
+    position: absolute;
+    cursor: pointer;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #ccc;
+    -webkit-transition: .4s;
+    transition: .4s;
+  }
+  
+  .slider:before {
+    position: absolute;
+    content: "";
+    height: 14px;
+    width: 14px;
+    left: 3px;
+    bottom: 3px;
+    background-color: white;
+    -webkit-transition: .4s;
+    transition: .4s;
+  }
+  
+  input:checked + .slider {
+    background-color: #82e59a;
+  }
+  
+  input:focus + .slider {
+    box-shadow: 0 0 1px #82e59a;
+  }
+  
+  input:checked + .slider:before {
+    -webkit-transform: translateX(13px);
+    -ms-transform: translateX(13px);
+    transform: translateX(13px);
+  }
+  
+  /* Rounded sliders */
+  .slider.round {
+    border-radius: 34px;
+  }
+  
+  .slider.round:before {
+    border-radius: 50%;
+  }
+  .display_inline {
+    display: inline-block!important;
+}
+.filters_div{
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+}
+.blockchain-complete-div{
+  display: none;
+}
+  @media (max-width: 991px) {
+    .filters_div{
+      gap: 0px;
+    }
+    .cartel-topside{
+      height: auto;
+    }
+    .card-full-body{
+      width: 31%;
+    }
+    .top-div-alpha{
+      width: 100%;
+    }
+    .filter-div{
+      padding-left: 15px;
+      padding-right: 15px;
+      width: 100%;
+    }
+    .dashbutton{
+      display: inline-block;
+    }
+
+
+  }
+  @media (max-width: 600px) {
+    .container-left-image{
+      margin-bottom: 35px;
+    }
+    .blockchain-complete-div{
+      display: inline-block!important;
+    }
+    .filters_div{
+      justify-content: space-evenly;
+    }
+    .dashbutton.blockchain{
+      display: inline-block;
+    }
+    .filter-div{
+      display: none;
+    }
+    .filter-div-dropdownButton{
+      display: inline-block;
+    }
+    .card-container{
+      flex-direction: column;
+      align-items: center;
+    }
+    .top-div-alpha{
+      flex-direction: column;
+      gap: 15px;
+    }
+    .card-full-body{
+      width: 85%;
+      
+    }
+    .card-full-body{
+      max-width: 220px;
+    }
+    .card-body{
+      width: 100%!important;
+      align-items: center;
+      max-width: 220px;
+      margin-left: 0px;
+    }
+    .switch-blockchainlist-div{
+      width: 100%;
+    }
+    .label-card{
+      width: 100%;
+    }
+    .container-big-alpha{
+      flex-direction: column;
+      align-items: center;
+    }
+    .container-right-info {
+      width: 92%;
+    }
+    .container-left-image{
+      width:auto;
+    }
+  }
+  @media (max-width: 480px) {
+    
+    .href-button-blog{
+      margin-right: 12px;
+    }
+    .title_blog_div{
+      margin-top: 19px;
+      margin-bottom: 0px!important;
+    }
+    .title_blog{
+      margin-top: 0px!important;
+    }
+    .button.button-large{
+      padding: 0px 0px!important;
+      max-width: 80%;
+  }
+  .button-alpha-item{
+    width: 100%;
+    margin-left: 10%;
+  }
+    .p-top{
+      margin-top: 40px;
+    }
+
+    h3{
+      margin-top:55px!important;
+    }
+    .back-sts{
+      margin-top: 47px!important;
+      margin-bottom: -45px!important;
+    }
+    .w-row{
+      margin-top: 45px!important;
+    }
+  }
+
+.button.button-large:hover{
+    color:white;
+}
+
+
+
+
+.blog_h5_small{
+  font-size: 20px;
+  margin-top: 10px;
+  margin-bottom: -5px;
+}
+.blogbutton{
+  height: 50px!important;
+  margin-top:35px!important;
+}
